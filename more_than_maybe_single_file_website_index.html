@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>More Than Maybe — A Romance by Gift Aghaulor</title>
+  <meta name="description" content="More Than Maybe — a heartfelt romance about choices, distance, and the courage to love.">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    /* Simple, modern, responsive styling (no external libs) */
+    :root{--accent:#b24d6c;--muted:#6b6b6b;--bg:#fff;--surface:#f7f7f8}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#222; background:linear-gradient(180deg,#fff,#fbfbfc)}
+    header{background:linear-gradient(90deg, rgba(178,77,108,0.08), rgba(255,255,255,0.02)); padding:36px 20px; border-bottom:1px solid #eee}
+    .container{max-width:980px; margin:0 auto}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7b6aa3);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    main{padding:36px 20px}
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:28px}
+    .card{background:var(--surface);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(20,20,20,0.04)}
+
+    .buy-cta{display:flex;flex-direction:column;gap:12px;align-items:stretch}
+    .buy-btn{display:inline-block;padding:14px 18px;border-radius:10px;text-decoration:none;font-weight:700;text-align:center}
+    .buy-btn.primary{background:var(--accent);color:#fff}
+    .buy-btn.ghost{background:transparent;border:1px solid #ddd;color:#444}
+
+    .excerpt{white-space:pre-wrap;line-height:1.5}
+
+    .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .meta span{background:#fff;padding:6px 10px;border-radius:999px;border:1px solid #eee;font-size:13px}
+
+    footer{padding:30px 20px;background:#fff;border-top:1px solid #eee;margin-top:40px}
+
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.logo{width:54px;height:54px}.buy-panel{order:2}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">MG</div>
+        <div>
+          <h1>More Than Maybe</h1>
+          <p class="lead">A heartfelt romance by Gift Aghaulor — love, distance, and the courage to choose.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container grid">
+      <section>
+        <div class="card">
+          <h2>About the Book</h2>
+          <p class="excerpt">Emma is a guarded artist. Alex is an ambitious professional. A chance meeting changes everything — but when a career-defining job takes Alex abroad, their fragile relationship is tested by distance, doubt, and the pull of ambition. More than Maybe is a story about choosing love despite fear.</p>
+
+          <div style="margin-top:18px">
+            <h3>What readers love</h3>
+            <ul>
+              <li>Slow-burn romance with emotional truth</li>
+              <li>Realistic portrayal of distance & career choices</li>
+              <li>Strong, hopeful ending without fairy-tale gloss</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:18px">
+            <h3>Excerpt</h3>
+            <p class="excerpt">"Then maybe we take the leap together." — A promise that changes everything.</p>
+          </div>
+
+          <div style="margin-top:18px">
+            <h3>Table of Contents (selected)</h3>
+            <ol>
+              <li>Chapter One – A Chance Encounter</li>
+              <li>Chapter Five – The Pull of the Heart</li>
+              <li>Chapter Eight – The Leap</li>
+              <li>Chapter Twelve – Ever After, At Last</li>
+            </ol>
+          </div>
+
+        </div>
+
+        <div style="height:18px"></div>
+
+        <div class="card">
+          <h3>About the Author</h3>
+          <p>Gift Aghaulor writes intimate, character-driven romances about second chances and brave choices. Follow for updates and new releases.</p>
+          <div class="meta">
+            <span>Romance</span>
+            <span>Contemporary</span>
+            <span>Short Novel</span>
+          </div>
+        </div>
+
+      </section>
+
+      <aside class="buy-panel">
+        <div class="card buy-cta">
+          <h3>Get your copy</h3>
+          <p style="margin:0">Available now — instant download on Gumroad.</p>
+
+          <!-- Replace link below with your Gumroad product link -->
+          <a class="buy-btn primary" href="https://zeegslerg.gumroad.com/l/seffr" target="_blank" rel="noopener noreferrer">Buy on Gumroad</a>
+          <a class="buy-btn ghost" href="mailto:gift.angha@example.com?subject=More%20Than%20Maybe%20Inquiry">Contact the Author</a>
+
+          <div style="font-size:13px;color:var(--muted);margin-top:8px">Secure checkout • Instant download</div>
+        </div>
+
+        <div style="height:18px"></div>
+
+        <div class="card">
+          <h4>Newsletter</h4>
+          <p style="margin:0 0 12px 0">Get updates about new releases and exclusive excerpts.</p>
+          <!-- Simple form using mailto (no backend). Replace with real form/service (Mailchimp, Buttondown, ConvertKit) when available. -->
+          <form onsubmit="window.location.href='mailto:gift.angha@example.com?subject=Newsletter%20Signup&body=Please%20subscribe%20me';return false;">
+            <input name="email" placeholder="Your email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6e6e6;margin-bottom:10px">
+            <button class="buy-btn primary" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <small>© More Than Maybe — Gift Aghaulor</small>
+      <div style="display:flex;gap:10px">
+        <a href="https://zeegslerg.gumroad.com/l/seffr" target="_blank" rel="noopener noreferrer">Buy</a>
+        <a href="#" onclick="alert('Thanks for visiting!')">Share</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Deployment & hosting notes (visible in source):
+       1) To deploy quickly: push this file (index.html) into a GitHub repo and use one of these options:
+          - GitHub Pages (free): enable Pages in repository settings and set branch to main or gh-pages. (docs: https://pages.github.com/)
+          - Netlify (free tier): drag-and-drop this folder in Netlify dashboard or connect repo. (docs: https://docs.netlify.com/start/)
+          - Vercel (free tier): new project > import Git repository or use Vercel CLI. (docs: https://vercel.com/docs/deployments)
+       2) To use a custom domain: configure DNS records with your registrar and add the domain in Netlify/Vercel/GitHub Pages. Netlify docs: https://docs.netlify.com/manage/domains/get-started-with-domains/
+       3) Recommended assets: add social preview image (og:image), replace mailto with real form provider, and optimize images for web.
+  -->
+
+</body>
+</html>
